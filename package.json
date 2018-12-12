@@ -1,0 +1,69 @@
+{
+  "name": "add-to-globals",
+  "displayName": "Add to Globals",
+  "publisher": "Mintonne",
+  "description": "",
+  "version": "0.0.1",
+  "engines": {
+    "vscode": "^1.29.0"
+  },
+  "categories": [
+    "Other"
+  ],
+  "activationEvents": [
+    "onCommand:atg.true",
+    "onCommand:atg.false",
+    "onCommand:atg.remove"
+  ],
+  "main": "./src/extension",
+  "contributes": {
+    "keybindings": [
+      {
+        "command": "atg.true",
+        "key": "ctrl+alt+a",
+        "mac": "cmd+alt+a"
+      },
+      {
+        "command": "atg.false",
+        "key": "ctrl+alt+s",
+        "mac": "cmd+alt+s"
+      },
+      {
+        "command": "atg.remove",
+        "key": "ctrl+alt+d",
+        "mac": "cmd+alt+d"
+      }
+    ],
+    "commands": [
+      {
+        "title": "Add a true variable to globals",
+        "category": "Add to Globals",
+        "command": "atg.true"
+      },
+      {
+        "title": "Add a false variable to globals",
+        "category": "Add to Globals",
+        "command": "atg.false"
+      },
+      {
+        "title": "Remove variable from globals",
+        "category": "Add to Globals",
+        "command": "atg.remove"
+      }
+    ]
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Mintonne/add-to-globals.git"
+  },
+  "scripts": {
+    "postinstall": "node ./node_modules/vscode/bin/install",
+    "test": "node ./node_modules/vscode/bin/test"
+  },
+  "devDependencies": {
+    "@types/node": "^8.10.25",
+    "eslint": "^4.11.0",
+    "vsce": "^1.53.2",
+    "vscode": "^1.1.25"
+  }
+}
