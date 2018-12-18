@@ -4,6 +4,9 @@
 
 Add to Globals allows you to easily add, modify or remove global variables from your JSHint or ESLint config file.
 
+Marketplace Link - https://marketplace.visualstudio.com/items?itemName=mintonne.add-to-globals
+
+
 ![](./img/showcase.gif)
 
 ## Supported Files
@@ -11,6 +14,7 @@ Add to Globals allows you to easily add, modify or remove global variables from 
 The extension supports JSON config files only.
 
 **JSHint** - .jshintrc
+
 **ESLint** - .eslintrc.json
 
 ## Commands
