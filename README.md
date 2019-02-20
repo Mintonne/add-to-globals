@@ -28,7 +28,7 @@ The extension supports JSON config files only.
 
 ## Keyboard Shortcuts
 
-This are the default keyboard shortcuts. You can always change them to whatever you want in the VS Code settings.
+These are the default keyboard shortcuts. You can always change them to whatever you want in the VS Code settings.
 
 | Shortcut      | Action         |
 | -------------|:-------------: |
