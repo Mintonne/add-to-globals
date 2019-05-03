@@ -3,14 +3,22 @@
   "displayName": "Add to Globals",
   "publisher": "Mintonne",
   "description": "Easily add, modify or remove global variables from your JSHint or ESLint config file.",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "license": "MIT",
   "icon": "img/icon.png",
   "engines": {
     "vscode": "^1.22.0"
   },
-  "categories": ["Other"],
-  "keywords": ["eslint", "jshint", "global", "no-undef", "globals"],
+  "categories": [
+    "Other"
+  ],
+  "keywords": [
+    "eslint",
+    "jshint",
+    "global",
+    "no-undef",
+    "globals"
+  ],
   "activationEvents": [
     "onCommand:atg.true",
     "onCommand:atg.false",
@@ -18,7 +26,8 @@
   ],
   "main": "./src/extension",
   "contributes": {
-    "keybindings": [{
+    "keybindings": [
+      {
         "command": "atg.true",
         "key": "ctrl+alt+a",
         "mac": "cmd+alt+a"
@@ -34,7 +43,8 @@
         "mac": "cmd+alt+d"
       }
     ],
-    "commands": [{
+    "commands": [
+      {
         "title": "Add an overwritable variable to globals",
         "category": "Add to Globals",
         "command": "atg.true"
@@ -64,6 +74,6 @@
     "@types/node": "^8.10.25",
     "eslint": "^4.11.0",
     "vsce": "^1.53.2",
-    "vscode": "^1.1.25"
+    "vscode": "^1.1.33"
   }
 }
