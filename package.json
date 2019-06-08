@@ -71,9 +71,9 @@
     "build": "npx vsce package"
   },
   "devDependencies": {
-    "@types/node": "^8.10.25",
+    "@types/node": "^8.10.49",
     "eslint": "^4.11.0",
-    "vsce": "^1.53.2",
-    "vscode": "^1.1.33"
+    "vsce": "^1.62.0",
+    "vscode": "^1.1.34"
   }
 }
