@@ -3,7 +3,7 @@
   "displayName": "Add to Globals",
   "publisher": "Mintonne",
   "description": "Easily add, modify or remove global variables from your JSHint or ESLint config file.",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "license": "MIT",
   "icon": "img/icon.png",
   "engines": {
